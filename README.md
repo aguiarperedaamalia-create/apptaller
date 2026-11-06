@@ -1,4 +1,4 @@
-# El Pistón — Solución A · "Clásica"
+# El Pistón
 
 Aplicación móvil Flutter para el taller automotriz **El Pistón**: clientes, vehículos, órdenes de servicio con su flujo de estados, trabajos de mano de obra, repuestos con inventario, pagos parciales y reportes para el dueño. Funciona **sin conexión** y guarda todo en una base de datos SQLite local con **Drift**.
 

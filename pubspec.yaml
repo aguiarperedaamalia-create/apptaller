@@ -1,0 +1,38 @@
+name: el_piston_clasico
+description: "Taller automotriz El Pistón — Solución A (Clásica). Gestión de clientes, vehículos, órdenes de servicio, inventario y pagos, sin conexión (Flutter + Drift)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Drift: ORM reactivo sobre SQLite (persistencia local, funciona offline)
+  drift: ^2.20.0
+  # Abre la base de datos SQLite en Android/iOS sin configuración extra
+  drift_flutter: '>=0.2.0 <0.4.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: '>=4.0.0 <7.0.0'
+  # Generador de código de Drift (crea lib/data/base_datos.g.dart)
+  drift_dev: ^2.20.0
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Barlow
+      fonts:
+        - asset: assets/fonts/Barlow-Regular.ttf
+        - asset: assets/fonts/Barlow-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Barlow-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Barlow-Bold.ttf
+          weight: 700
